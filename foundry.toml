@@ -1,3 +1,10 @@
+[rpc_endpoints]
+sepolia = "${BASE_SEPOLIA_RPC_URL}"
+
+[etherscan]
+base-sepolia = { key = "${BASESCAN_API_KEY}", url = "https://api-sepolia.basescan.org/api" } 
+8453 = { key = "${BASESCAN_API_KEY}", url = "https://api.basescan.org/api" } 
+
 [profile.default]
 src = "src"
 out = "out"

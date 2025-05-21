@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+# test
+src/CometTest.sol
+src/integrations
+script/CometTest.s.sol
+script/Depwi.s.sol
